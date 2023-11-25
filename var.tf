@@ -8,7 +8,7 @@ variable "s3_bucket_name" {
   type = string
 }
 
-variable "tags" {
+variable "tag_name" {
   description = "tag for the s3 bucket"
   type = string
 }

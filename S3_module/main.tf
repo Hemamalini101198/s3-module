@@ -6,9 +6,9 @@ resource "aws_s3_bucket" "s3_bucket" {
     index_document = "index.html"
   }
 
-  tags = {
-    Name        = var.tag_name
-  }  
+  #tags = {
+   # Name        = var.tag_name
+  #}  
 }
 
 #bucket acl as public

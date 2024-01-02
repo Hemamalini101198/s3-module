@@ -7,7 +7,7 @@ data "aws_cloudfront_cache_policy" "this" {
 }
 
 data "aws_cloudfront_response_headers_policy" "this"{
-  name = "CorsFullAccess"
+  name = "Managed-SimpleCORS"
 }
 
 resource "aws_cloudfront_distribution" "cf_s3_distribution" {
